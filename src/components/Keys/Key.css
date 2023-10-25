@@ -10,7 +10,6 @@
 .pp-key--black {
   background-color: black;
   height: 100px;
-  /* position: absolute; */
 }
 .pp-key:hover {
   background-color: aquamarine;
