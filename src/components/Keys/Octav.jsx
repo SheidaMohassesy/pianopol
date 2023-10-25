@@ -10,7 +10,7 @@ const Octav = ({ octavIndex }) => {
     <>
       {keys.map((k) => {
         const isBlack = blacks.includes(k);
-        return <Key keyName={k + octavValue} isBlack={isBlack} />;
+        return <Key key={k} keyName={k + octavValue} isBlack={isBlack} />;
       })}
     </>
   );
