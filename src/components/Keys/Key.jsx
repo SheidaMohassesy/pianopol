@@ -1,9 +1,13 @@
 import useSound from "use-sound";
 import "./Key.css";
 
-const Key = ({ keyName }) => {
+const Key = ({ keyName, isBlack = false }) => {
   const file = require(`../../sounds/${keyName}.mp3`);
   const [play] = useSound(file);
-  return <div className="pp-key" onClick={play}></div>;
+  return (
+    <div className={`pp-key ${isBlack ? "pp-key--black" : ""}`} onClick={play}>
+      <span> {keyName}</span>
+    </div>
+  );
 };
 export default Key;

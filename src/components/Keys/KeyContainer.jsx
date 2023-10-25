@@ -1,13 +1,11 @@
 import "./KeyContainer.css";
-import Key from "./Key";
+import Octav from "./Octav";
 
 const KeyContainer = () => {
   return (
     <div className="pp-key-container">
-      <Key keyName="1" />
-      <Key keyName="2" />
-      <Key keyName="10" />
-      <Key keyName="15" />
+      <Octav octavIndex={0} />
+      <Octav octavIndex={1} />
     </div>
   );
 };
