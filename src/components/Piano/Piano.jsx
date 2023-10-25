@@ -1,4 +1,3 @@
-import Key from "../Keys/Key";
 import KeyContainer from "../Keys/KeyContainer";
 
 const Piano = () => {
