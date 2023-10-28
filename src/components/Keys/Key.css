@@ -1,17 +1,30 @@
 .pp-key {
-  background-color: rgb(252, 255, 255);
-  border: 1px solid black;
-  width: 50px;
   height: 200px;
+  width: 50px;
+  border: 1px solid #000;
+  cursor: pointer;
+  position: relative;
 }
 .pp-key span {
   color: red;
+  font-size: 10px;
 }
-.pp-key--black {
-  background-color: black;
-  height: 100px;
-}
+
 .pp-key:hover {
   background-color: aquamarine;
   cursor: pointer;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  height: 120px;
+  background-color: black;
+  z-index: 1;
+  left: -25px;
+  /* right: -25px; */
+  margin-right: -51px;
+  /* margin-left: -25px; */
 }

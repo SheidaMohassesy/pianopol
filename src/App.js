@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <h1>Welcome to PianoPol :)</h1>
       <Piano />
+      Version 1.0.0
     </div>
   );
 }
